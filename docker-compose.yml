@@ -1,6 +1,7 @@
 version: "3"
 services:
   web:
+    image: partychen/laravel:latest
     container_name: nameofcontainer
     build: .
     ports:
