@@ -1,9 +1,8 @@
 version: "3"
 services:
   web:
-    image: partychen/laravel:latest
     container_name: nameofcontainer
-    build: ./docker
+    build: .
     ports:
       - 8000:80
     volumes:
